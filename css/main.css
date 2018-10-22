@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  color: #fff;
+  font-family: 'Bevan';
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  border-style: solid;
+  border-color: #595652;
+  width: 100%;
+  background-color: #79756f;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+.nav a {
+  list-style-type: none;
+  display: inline-block;
+  font-family: sans-serif;
+  padding: .6em;
+  margin: .3em;
+  color: white;
+  background-color: #713837;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.nav a:hover {
+  background-color: #f33;
+}
+
+body {
+  background-color: #dbd6cf;
+  margin: 0;
+}
